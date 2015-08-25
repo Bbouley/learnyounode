@@ -13,7 +13,7 @@ module.exports = function(dirName, extension, callback){
         }
       }
     }
-    callback(null, dataArray);
+    return callback(null, dataArray);
   });
 };
 
