@@ -14,7 +14,6 @@ var server = net.createServer(function(socket){
     month = '0'+ month;
   }
 
-
   var dateString = year + '-' + month + '-' + day + ' ' + hours + ':' + mins;
 
   socket.end(dateString);
